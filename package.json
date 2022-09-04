@@ -1,0 +1,16 @@
+{
+  "name": "stylish",
+  "version": "1.0.0",
+  "description": "Experiment in Style-Dictionary",
+  "main": "build.js",
+  "author": "Kevin Muldoon",
+  "license": "MIT",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1"
+  },
+  "scripts": {
+    "build": "npm run clean && node ./build.js",
+    "clean": "rm -rf build",
+    "prepare": "npm run build"
+  }
+}

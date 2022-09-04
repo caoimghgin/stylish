@@ -1,0 +1,19 @@
+/**
+ * Do not edit directly
+ * Generated on Sun, 04 Sep 2022 14:21:08 GMT
+ */
+
+:root {
+  --dj-size-font-large-xxx: 2rem; /* the large size of the font */
+  --dj-size-font-medium-xxx: 1rem; /* the medium size of the font */
+  --dj-size-font-small-xxx: 0.75rem; /* the small size of the font */
+  --dj-color-base-green-xxx: #00ff00;
+  --dj-color-base-red-xxx: #ff0000;
+  --dj-color-base-gray-dark-xxx: #111111;
+  --dj-color-base-gray-medium-xxx: #999999;
+  --dj-color-base-gray-light-xxx: #cccccc;
+  --dj-size-font-base-xxx: var(--dj-size-font-medium-xxx); /* the base size of the font */
+  --dj-color-font-tertiary-xxx: var(--dj-color-base-gray-light-xxx);
+  --dj-color-font-secondary-xxx: var(--dj-color-base-green-xxx);
+  --dj-color-font-base-xxx: var(--dj-color-base-red-xxx);
+}
