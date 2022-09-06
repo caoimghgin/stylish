@@ -1,13 +1,16 @@
+const ENV = require('../../env.json');
+
 module.exports = (build, brand, platform) => {
     return {
         js: {
             transforms: [
                 'attribute/cti',
-                'name/cti/dj',
+                'name/cti/normalizer',
                 'name/cti/pascal',
                 'size/rem',
                 'color/hex'
             ],
+            prefix: `${ENV.PREFIX}`,
             buildPath: `${build}/${brand}/${platform}/`,
             options: {
                 outputReferences: true,

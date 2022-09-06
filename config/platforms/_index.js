@@ -12,6 +12,8 @@ const flutter = require('./flutter')
 
 module.exports = (brand, platform) => {
 
+    console.log("----------------->", ENV.BUILD_DIR, brand, platform)
+
     return Object.assign(
         js(ENV.BUILD_DIR, brand, platform),
         scss(ENV.BUILD_DIR, brand, platform),

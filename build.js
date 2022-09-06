@@ -1,8 +1,8 @@
 const StyleDictionaryPackage = require('style-dictionary')
 const config = require('./config/index.js')
 const brands = ['rj']
-const platforms = ['js', 'css', 'scss', 'android', 'compose', 'ios', 'swift', 'swift_enum']
-
+// const platforms = ['js', 'css', 'scss', 'android', 'compose', 'ios', 'swift', 'swift_enum']
+const platforms = ['js']
 
 brands.map(brand => {
     platforms.map(platform => {

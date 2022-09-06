@@ -38,9 +38,6 @@ module.exports = (build, brand, platform) => {
             }, {
                 destination: "StyleDictionarySize.h",
                 format: "ios/static.h",
-                options: {
-                    outputReferences: true,
-                },
                 className: "StyleDictionarySize",
                 type: "float",
                 filter: {
