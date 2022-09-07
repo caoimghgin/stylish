@@ -5,6 +5,7 @@ module.exports = (build, brand, platform) => {
         css: {
             transforms: [
                 'attribute/cti',
+                'attribute/cti/normalizer',
                 'name/cti/normalizer',
                 'name/cti/kebab',
                 'time/seconds',

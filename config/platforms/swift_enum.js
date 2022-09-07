@@ -3,7 +3,8 @@ module.exports = (build, brand, platform) => {
         swift_enum: {
             transforms: [
                 'attribute/cti',
-                'name/cti/dj',
+                'attribute/cti/normalizer',
+                'name/cti/normalizer',
                 'name/ti/camel',
                 'color/UIColorSwift',
                 'content/swift/literal',

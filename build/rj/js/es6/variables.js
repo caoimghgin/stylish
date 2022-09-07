@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 06 Sep 2022 11:00:45 GMT
+ * Generated on Wed, 07 Sep 2022 11:44:52 GMT
  */
 
 export const RjColorBaseGrayLight = "#cccccc";
@@ -153,28 +153,28 @@ export const RjColorNeutral800 = "#1b1b1b";
 export const RjColorNeutral900 = "#111111";
 export const RjColorBlack = "#000000";
 export const RjColorWhite = "#ffffff";
-export const RjBlack05a = "#0000000d";
-export const RjBlack10a = "#0000001a";
-export const RjBlack20a = "#00000033";
-export const RjBlack30a = "#0000004d";
-export const RjBlack40a = "#00000066";
-export const RjBlack50a = "#00000080";
-export const RjBlack60a = "#00000099";
-export const RjBlack70a = "#000000b3";
-export const RjBlack80a = "#000000cc";
-export const RjBlack90a = "#000000e6";
-export const RjBlack95a = "#000000f2";
-export const RjWhite05a = "#ffffff0d";
-export const RjWhite10a = "#ffffff1a";
-export const RjWhite20a = "#ffffff33";
-export const RjWhite30a = "#ffffff4d";
-export const RjWhite40a = "#ffffff66";
-export const RjWhite50a = "#ffffff80";
-export const RjWhite60a = "#ffffff99";
-export const RjWhite70a = "#ffffffb3";
-export const RjWhite80a = "#ffffffcc";
-export const RjWhite90a = "#ffffffe6";
-export const RjWhite95a = "#fffffff2";
+export const RjColorBlack05a = "#000000";
+export const RjColorBlack10a = "#000000";
+export const RjColorBlack20a = "#000000";
+export const RjColorBlack30a = "#000000";
+export const RjColorBlack40a = "#000000";
+export const RjColorBlack50a = "#000000";
+export const RjColorBlack60a = "#000000";
+export const RjColorBlack70a = "#000000";
+export const RjColorBlack80a = "#000000";
+export const RjColorBlack90a = "#000000";
+export const RjColorBlack95a = "#000000";
+export const RjColorWhite05a = "#ffffff";
+export const RjColorWhite10a = "#ffffff";
+export const RjColorWhite20a = "#ffffff";
+export const RjColorWhite30a = "#ffffff";
+export const RjColorWhite40a = "#ffffff";
+export const RjColorWhite50a = "#ffffff";
+export const RjColorWhite60a = "#ffffff";
+export const RjColorWhite70a = "#ffffff";
+export const RjColorWhite80a = "#ffffff";
+export const RjColorWhite90a = "#ffffff";
+export const RjColorWhite95a = "#ffffff";
 export const RjSizeFontSmall = "0.75rem"; // the small size of the font
 export const RjSizeFontMedium = "1rem"; // the medium size of the font
 export const RjSizeFontLarge = "2rem"; // the large size of the font

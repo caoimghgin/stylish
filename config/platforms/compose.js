@@ -3,7 +3,8 @@ module.exports = (build, brand, platform) => {
         compose: {
             transforms: [
                 'attribute/cti',
-                'name/cti/dj',
+                'attribute/cti/normalizer',
+                'name/cti/normalizer',
                 'name/cti/camel',
                 'color/composeColor',
                 'size/compose/em',

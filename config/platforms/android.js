@@ -3,7 +3,8 @@ module.exports = (build, brand, platform) => {
         android: {
             transforms: [
                 'attribute/cti',
-                'name/cti/dj',
+                'attribute/cti/normalizer',
+                'name/cti/normalizer',
                 'name/cti/snake',
                 'color/hex8android',
                 'size/remToSp',

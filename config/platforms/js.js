@@ -5,6 +5,7 @@ module.exports = (build, brand, platform) => {
         js: {
             transforms: [
                 'attribute/cti',
+                'attribute/cti/normalizer',
                 'name/cti/normalizer',
                 'name/cti/pascal',
                 'size/rem',

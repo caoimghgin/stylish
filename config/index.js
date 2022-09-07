@@ -11,7 +11,7 @@ module.exports = (brand, platform) => {
         source: [
             `${ENV.TOKENS_DIR}/${brand}/**/*.json`,
         ],
-        prefix: "DJ",
+        prefix: `${ENV.PREFIX}`,
         platforms: platforms(brand, platform)
     }
 
