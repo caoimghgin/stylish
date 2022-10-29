@@ -5,6 +5,7 @@ module.exports = (build, brand, platform) => {
         css: {
             transforms: [
                 'attribute/cti',
+                'myTransitiveTransform',
                 'attribute/cti/normalizer',
                 'name/cti/normalizer',
                 'name/cti/kebab',
@@ -15,6 +16,7 @@ module.exports = (build, brand, platform) => {
             prefix: `${ENV.PREFIX}`,
             buildPath: `${build}/${brand}/${platform}/`,
             options: {
+                showFileHeader: false,
                 outputReferences: true,
             },
             files: [{
