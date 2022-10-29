@@ -14,5 +14,8 @@
     "clean": "rm -rf build",
     "prepare": "npm run build",
     "test": "jest"
-  }
+  },
+  "publishConfig": {
+    "@caoimghgin:registry": "https://npm.pkg.github.com"
+  }  
 }
