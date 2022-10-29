@@ -1,6 +1,6 @@
 {
   "name": "rj-stylish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Experiment in Style-Dictionary",
   "main": "build.js",
   "author": "Kevin Muldoon",
@@ -16,6 +16,6 @@
     "test": "jest"
   },
   "publishConfig": {
-    "@caoimghgin:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com/@caoimghgin"
   }  
 }
