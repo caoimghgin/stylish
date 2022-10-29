@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 29 Oct 2022 11:43:29 GMT
+ * Generated on Sat, 29 Oct 2022 12:32:49 GMT
  */
 
 export const RjColorBaseGrayLight = "#ccccccff";
