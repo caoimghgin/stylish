@@ -9,6 +9,7 @@ name: 'npm publish'
 
 on:
   create
+   # When 'increment-path-version' creates a new tag, run this script
 
 jobs:
   build:

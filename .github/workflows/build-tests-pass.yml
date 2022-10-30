@@ -11,6 +11,7 @@ name: Build & Tests Pass
 
 on:
   create
+   # When 'increment-path-version' creates a new tag, run this script
 
 jobs:
 
