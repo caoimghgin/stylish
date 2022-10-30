@@ -22,7 +22,7 @@ jobs:
         with:
           ref: ${{ github.ref }}
           token: ${{ secrets.PAT }} 
-          node-version: ${{ matrix.node-version }}
+          # node-version: ${{ matrix.node-version }}
       - name: 'cat package.json'
         run: cat ./package.json
       - name: 'Increment Patch Version'
@@ -30,7 +30,7 @@ jobs:
         uses: 'phips28/gh-action-bump-version@master'
         with:
           tag-prefix: 'v'
-          node-version: ${{ matrix.node-version }}
+          # node-version: ${{ matrix.node-version }}
           cache: 'npm'                
         env:
           GITHUB_TOKEN: ${{secrets.PAT}}
