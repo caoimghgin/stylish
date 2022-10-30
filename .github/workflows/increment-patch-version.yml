@@ -7,6 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -16,7 +17,7 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm test
-      
+
   bump-version:
     name: 'Bump Version on master'
     runs-on: ubuntu-latest
