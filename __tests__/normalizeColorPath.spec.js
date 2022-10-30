@@ -68,7 +68,7 @@ describe("Normalize Alpha Color", () => {
       },
       path: [ 'palette', 'alpha', 'white', 'white060' ]
     }
-    const output = [ '32 SHOULD NOT INCREMENT to 33', 'color', 'white60a' ]
+    const output = [ 'color', 'white60a' ]
     expect(normalizeColorPath(input)).toEqual(output);
   });
 });
