@@ -68,7 +68,7 @@ describe("Normalize Alpha Color", () => {
       },
       path: [ 'palette', 'alpha', 'white', 'white060' ]
     }
-    const output = [ 'NOPE', 'color', 'white60a' ]
+    const output = [ 'color', 'white60a' ]
     expect(normalizeColorPath(input)).toEqual(output);
   });
 });
