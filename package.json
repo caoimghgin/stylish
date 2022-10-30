@@ -1,6 +1,6 @@
 {
   "name": "rj-stylish",
-  "version": "1.0.44",
+  "version": "1.0.45",
   "description": "Experiment in Style-Dictionary",
   "repository": "https://github.com/caoimghgin/stylish",
   "main": "build.js",
