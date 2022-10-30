@@ -68,7 +68,7 @@ describe("Normalize Alpha Color", () => {
       },
       path: [ 'palette', 'alpha', 'white', 'white060' ]
     }
-    const output = [ 'FAIL', 'color', 'white60a' ]
+    const output = [ 'SHOULD NOT INCREMENT FAIL', 'color', 'white60a' ]
     expect(normalizeColorPath(input)).toEqual(output);
   });
 });
