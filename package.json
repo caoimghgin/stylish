@@ -1,8 +1,8 @@
 {
   "name": "@caoimghgin/rj-stylish",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "description": "Experiment in Style-Dictionary",
-  "repository" : "https://github.com/caoimghgin/stylish",
+  "repository": "https://github.com/caoimghgin/stylish",
   "main": "build.js",
   "author": "Kevin Muldoon",
   "license": "MIT",
